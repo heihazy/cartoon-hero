@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<!-- saved from url=(0039)http://127.0.0.1:5500/phuong/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phuong Laitinen</title>
+    
+    
+    <script src="./Phuong Laitinen_files/2be82ea0a4.js.download" crossorigin="anonymous"></script>
+  <link href="./Phuong Laitinen_files/css" rel="stylesheet"><link rel="stylesheet" href="./Phuong Laitinen_files/style.css"><link href="./Phuong Laitinen_files/free-v4-shims.min.css" media="all" rel="stylesheet" id="font-awesome-5-kit-css"><link href="./Phuong Laitinen_files/free-v4-font-face.min.css" media="all" rel="stylesheet" id="font-awesome-5-kit-css"><link href="./Phuong Laitinen_files/free.min.css" media="all" rel="stylesheet" id="font-awesome-5-kit-css"></head>
+  <body>
+    <header>
+      <h1><a href="http://127.0.0.1:5500/phuong/index.html#">Phuong Laitinen</a></h1>
+      <!-- <a href="#" class="menu-toggle">Menu</a> -->
+      <!-- <div class="offcanvas-menu" id="offcanvas-menu"> -->
+      <ul class="mb-5">
+        <li class="active"><a href="http://127.0.0.1:5500/phuong/index.html">Bio</a></li>
+        <li><a href="http://127.0.0.1:5500/phuong/portfolio.html">Portfolio</a></li>
+        <li><a href="http://127.0.0.1:5500/phuong/resume.html">Resume</a></li>
+        <li><a href="http://127.0.0.1:5500/phuong/contact.html">Contact</a></li>
+      </ul>
+      <!-- </div> -->
+    </header>
+    <main>
+      <section id="home-about" class="index-page">
+        <div id="hero-banner">
+          <div id="banner-content" style="
+    top: 50%;
+    font-weight: 1.2rem;
+">
+            <h2>Hello</h2>
+            <p>
+              I'm Phuong, a Full Stack Development student at Helsinki Business
+              College. I also have business background as a result-driven
+              markerter.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="home-skills" class="index-skill">
+        <h2>My Skills</h2>
+        <div id="cards">
+          <div class="skill-card">
+            <i class="fab fa-html5" aria-hidden="true"></i>
+            <h3>HTML</h3>
+            <progress class="skill-name html" value="80" max="100">80%</progress>
+          </div>
+          <div class="skill-card">
+            <i class="fab fa-css3-alt" aria-hidden="true"></i>
+            <h3>CSS</h3>
+            <progress class="skill-name css" value="60" max="100">60%</progress>
+          </div>
+          <div class="skill-card">
+            <i class="fab fa-js" aria-hidden="true"></i>
+            <h3>JavaScript</h3>
+            <progress class="skill-name js" value="30" max="100">30%</progress>
+          </div>
+          <div class="skill-card">
+            <i class="fab fa-figma" aria-hidden="true"></i>
+            <h3>UI Design</h3>
+            <progress class="skill-name design" value="50" max="100">50%</progress>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <h3><i class="far fa-copyright" aria-hidden="true"></i>Phuong Laitinen</h3>
+        <h3>All Rights Reserved</h3>
+      </footer>
+    </main>
+  <!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
